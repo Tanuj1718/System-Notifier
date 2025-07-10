@@ -67,7 +67,7 @@ python-dotenv
 
    Once everything is set up, run the script manually to check your system's usage:
 
-   ``python sys_notifier.py``
+   ``python script.py``
 
 The script will print the system's current usage to the console and send an email alert if any resource exceeds the defined threshold.
 
@@ -93,7 +93,7 @@ Open the cron table for editing:
 
 Add the following line to run the script every 10 minutes:
 
-``*/10 * * * * /usr/bin/python3 /path/to/your/sys_notifier.py``
+``*/10 * * * * /usr/bin/python3 /file_path``
 
 Save and exit the editor.
 
@@ -106,7 +106,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contributing
 
-If you'd like to contribute to the project, feel free to fork the repository and submit a pull request. We'd be happy to accept improvements and new features!
+If you'd like to contribute to the project and suggest some features, feel free to fork the repository and submit a pull request. I would be happy to accept improvements and new features!
 
 
 ## Summary
